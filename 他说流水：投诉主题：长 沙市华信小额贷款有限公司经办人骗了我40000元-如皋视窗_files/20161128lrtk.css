@@ -1,0 +1,30 @@
+﻿
+/*clearboth*/
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden;z-index:9999;}
+.clearfix{*zoom:1;z-index:9999;}
+.clearfix .clear{_height:0px;z-index:9999;}
+/*gotop*/
+.cbbfixed {position: fixed;right: 20px;transition: bottom ease .3s;bottom: -85px;z-index: 3;cursor:pointer;z-index:9999;}
+.cbbfixed .cbbtn {width: 40px;height: 40px;display: block;background-color: #02a2aa;z-index:9999;}
+.cbbfixed .gotop {transition: background-color ease .3s;margin-top: 1px;z-index:9999;}
+.cbbfixed .gotop .up-icon{float:left;margin:14px 0 0 9px;width:23px;height:12px;background: url(../images/20161128zxf0side-icon02.png);z-index:9999;}
+.cbbfixed .gotop:hover {background-color:#2c2d2e;z-index:9999;}
+.cbbfixed .weixin {background: #dadbdd;z-index:9999;}
+.cbbfixed .weixin div {background: url(../images/20161128zxf0weixin.jpg);width: 299px;height: 498px;position: absolute;left: -310px;top: -410px;opacity: 0;transform: scale(0);    -webkit-transform: scale(0);transform-origin: 100% 70%;-webkit-transform-origin: 100% 70%;transition: transform ease .3s,opacity ease .3s;-webkit-transition: all ease .3s;display:none\0;*display:none;z-index:9999;}
+.cbbfixed .weixin:hover div {display: block;transform: scale(1);-webkit-transform: scale(1);opacity: 1;*display:block;z-index:9999;}
+.cbbfixed .weixin .weixin-icon{float: left;margin:12px 0 0 11px;width:18px;height: 18px; background: url(../images/20161128zxf0side-icon01.png);z-index:9999;}<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+<script language="javascript" src="/ad.js"></script>
